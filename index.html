@@ -59,5 +59,27 @@
     <footer>
         <p>&copy; 2023 Kirsten Sanders</p>
     </footer>
+<script>
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        slides[currentIndex].style.display = 'none';
+        currentIndex = (index + slides.length) % slides.length;
+        slides[currentIndex].style.display = 'block';
+    }
+
+    // Initially, show the first slide
+    showSlide(currentIndex);
+
+    // Previous and Next buttons (optional)
+    document.querySelector('#prev-button').addEventListener('click', () => {
+        showSlide(currentIndex - 1);
+    });
+
+    document.querySelector('#next-button').addEventListener('click', () => {
+        showSlide(currentIndex + 1);
+    });
+</script>
 </body>
 </html>
