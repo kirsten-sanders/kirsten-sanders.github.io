@@ -7,12 +7,12 @@ body, h1, h2, p {
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #fefae0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #606c38;
+    color: #fefae0;
     padding: 10px 0;
 }
 
@@ -52,6 +52,6 @@ section h1 {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #dda15e;
+    color: #fefae0;
 }
