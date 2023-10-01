@@ -55,3 +55,19 @@ footer {
     background-color: #dda15e;
     color: #fefae0;
 }
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    flex: 0 0 100%; /* Each slide occupies the full width of the container */
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+}
