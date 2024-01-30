@@ -49,13 +49,6 @@ section h1 {
     height: auto;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #dda15e;
-    color: #fefae0;
-}
-
 .carousel-container {
     display: flex;
     overflow: hidden;
@@ -71,3 +64,11 @@ footer {
     max-width: 100%;
     height: auto;
 }
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4c6663;
+    color: #272727;
+}
+
