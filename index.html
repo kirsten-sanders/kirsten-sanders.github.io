@@ -22,9 +22,60 @@
     <section id="about">
         <h1>About Kirsten</h1>
         <img src="IMG_4606.jpeg" alt="Kirsten Sanders" width="300" height="400">
-        <p>Your introduction and background go here.</p>
     </section>
 
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+        <!-- Add your projects here -->
+        <div class="project">
+            <img src="IcelandMap.jpg" alt="Map of Iceland.">
+            <h2>Iceland Atlas Map</h2>
+            <p>I created this map for my Cartographic Design class in undergrad. It took half of the semester and it was my first real foray into the world of making pretty but still useful maps. </p>
+        </div>
+        <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="GSLProjectPoster.jpg" alt="Shrinking Great Salt Lake">
+            <h2>The Shrinking Great Salt Lake</h2>
+            <p>Description of Project 1.</p>
+        </div>
+        <div class="carousel-slide">
+            <img src="HeavyMetalsPoster.jpg" alt="Heavy Metals in Salt Lake">
+            <h2>Heavy Metals in the Salt Lake Valley</h2>
+            <p>Description of Project 2.</p>
+        </div>
+             <div class="carousel-slide">
+            <img src="HyperspectralPoster.jpg" alt="Using Hyperspectral Data to Determine the Health of Grass in Provo">
+            <h2>Using Hyperspectral Data to Determine Grass Health on BYU Campus</h2>
+            <p>Description of Project 2.</p>
+        </div>
+        <button id="prev-button">Previous</button>
+        <button id="next-button">Next</button>
+        <!-- Add more slides as needed -->
+    </section>
+    
+    <script>
+        const slides = document.querySelectorAll('.carousel-slide');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            slides[currentIndex].style.display = 'none';
+            currentIndex = (index + slides.length) % slides.length;
+            slides[currentIndex].style.display = 'block';
+        }
+
+        // Initially, show the first slide
+        showSlide(currentIndex);
+
+        // Previous and Next buttons (optional)
+        document.querySelector('#prev-button').addEventListener('click', () => {
+            showSlide(currentIndex - 1);
+        });
+
+        document.querySelector('#next-button').addEventListener('click', () => {
+            showSlide(currentIndex + 1);
+        });
+    </script>
+    
     <footer>
         <p>Kirsten Sanders</p>
     </footer>
