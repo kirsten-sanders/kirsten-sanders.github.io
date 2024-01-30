@@ -40,31 +40,6 @@ section h1 {
     font-size: 36px;
 }
 
-.project {
-    margin-bottom: 40px;
-}
-
-.project img {
-    max-width: 100%;
-    height: auto;
-}
-
-.carousel-container {
-    display: flex;
-    overflow: hidden;
-}
-
-.carousel-slide {
-    flex: 0 0 100%; /* Each slide occupies the full width of the container */
-    padding: 20px;
-    text-align: center;
-}
-
-.carousel-slide img {
-    max-width: 100%;
-    height: auto;
-}
-
 footer {
     text-align: center;
     padding: 10px 0;
