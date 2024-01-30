@@ -16,6 +16,10 @@ header {
     padding: 10px 0;
 }
 
+header h1 {
+    color: #272727; /* Change this to the desired text color */
+}
+
 nav ul {
     list-style: none;
     text-align: center;
