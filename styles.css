@@ -12,12 +12,12 @@ body {
 
 header {
     background-color: #4c6663;
-    color: #272727;
+    color: #FDF3EC;
     padding: 10px 0;
 }
 
 header h1 {
-    color: #272727; /* Change this to the desired text color */
+    color: #FDF3EC; /* Change this to the desired text color */
 }
 
 nav ul {
@@ -48,6 +48,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #4c6663;
-    color: #272727;
+    color: #FDF3EC;
 }
 
