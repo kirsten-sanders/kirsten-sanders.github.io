@@ -18,6 +18,7 @@ header {
 
 header h1 {
     color: #FDF3EC; /* Change this to the desired text color */
+     left: 10px;
 }
 
 nav ul {
