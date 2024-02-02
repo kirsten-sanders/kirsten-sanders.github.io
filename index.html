@@ -51,34 +51,13 @@
                 <img src="HyperspectralPoster.jpg" alt="Using Hyperspectral Data to Determine the Health of Grass in Provo">
                 <h2>Using Hyperspectral Data to Determine Grass Health on BYU Campus</h2>
                 <p>Description of Project 2.</p>
+            </div>
+            <button class="prev-button" onclick="changeSlide(-1)">❮</button>
+            <button class="next-button" onclick="changeSlide(1)">❯</button>
         </div>
-        <button id="prev-button">Previous</button>
-        <button id="next-button">Next</button>
-        <!-- Add more slides as needed -->
     </section>
     
-    <script>
-        const slides = document.querySelectorAll('.carousel-slide');
-        let currentIndex = 0;
-
-        function showSlide(index) {
-            slides[currentIndex].style.display = 'none';
-            currentIndex = (index + slides.length) % slides.length;
-            slides[currentIndex].style.display = 'block';
-        }
-
-        // Initially, show the first slide
-        showSlide(currentIndex);
-
-        // Previous and Next buttons (optional)
-        document.querySelector('#prev-button').addEventListener('click', () => {
-            showSlide(currentIndex - 1);
-        });
-
-        document.querySelector('#next-button').addEventListener('click', () => {
-            showSlide(currentIndex + 1);
-        });
-    </script>
+    <script src="script.js"></script>
     
     <footer>
         <p>Kirsten Sanders</p>

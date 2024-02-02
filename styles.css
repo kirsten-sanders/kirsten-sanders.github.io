@@ -94,19 +94,38 @@ section p {
 }
 
 .carousel-container {
-    display: flex;
+    position: relative;
     overflow: hidden;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: auto;
 }
 
 .carousel-slide {
-    flex: 0 0 100%; /* Each slide occupies the full width of the container */
-    padding: 20px;
-    text-align: center;
+    display: none;
 }
 
 .carousel-slide img {
-    max-width:100%;
+    width: 100%;
     height: auto;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
 }
 
 footer {
