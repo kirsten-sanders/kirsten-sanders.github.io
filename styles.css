@@ -6,12 +6,12 @@
 }
 
 @font-face {
-    font-family: 'botterill'; /* Provide a unique name for your font */
-    src: url('BotterillSignature.ttf') format('truetype');
+    font-family: 'dattebayo'; /* Provide a unique name for your font */
+    src: url('dattebayo.ttf') format('truetype');
 }
 
 .special-heading {
-    font-family: 'botterill', sans-serif;
+    font-family: 'dattebayo', sans-serif;
 }
 
 body, h1, h2, p {
