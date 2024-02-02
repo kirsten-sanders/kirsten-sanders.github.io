@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: 'WindSong'; /* Provide a unique name for your font */
-    src: url('WindSong-Medium.ttf') format('truetype');
+    font-family: 'Adelia'; /* Provide a unique name for your font */
+    src: url('Adelia.ttf') format('truetype');
 }
 
 .special-heading {
