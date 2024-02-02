@@ -77,10 +77,24 @@ section h2 {
     text-align: center;
 }
 
+section h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 36px;
+    padding: 20px;
+    margin: 8px;
+}
+
 section p {
     font-family: Poppins, sans-serif;
     padding: 20px;
     margin: 8px;
+}
+
+section p1 {
+    font-family: Poppins, sans-serif;
+    padding: 20px;
+    margin: 8px;
+    text-align: center;
 }
 
 .centered-image-container {
