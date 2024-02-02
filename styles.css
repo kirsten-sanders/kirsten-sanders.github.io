@@ -61,6 +61,21 @@ section h2 {
     /* Add any other styles you want for the image */
 }
 
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    flex: 0 0 100%; /* Each slide occupies the full width of the container */
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+}
 footer {
     text-align: center;
     padding: 10px 0;
