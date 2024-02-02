@@ -5,6 +5,15 @@
     src: url('Fraunces[SOFT,WONK,opsz,wght].ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'WindSong'; /* Provide a unique name for your font */
+    src: url('WindSong-Medium.ttf') format('truetype');
+}
+
+.special-heading {
+    font-family: 'Windsong', sans-serif;
+}
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
