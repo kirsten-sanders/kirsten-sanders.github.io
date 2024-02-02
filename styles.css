@@ -110,7 +110,7 @@ section p1 {
 .carousel-container {
     position: relative;
     overflow: hidden;
-    max-width: 90%; /* Adjust the maximum width as needed */
+    max-width: 80%; /* Adjust the maximum width as needed */
     margin: auto;
 }
 
