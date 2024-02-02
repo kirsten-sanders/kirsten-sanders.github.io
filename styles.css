@@ -6,12 +6,12 @@
 }
 
 @font-face {
-    font-family: 'adelia'; /* Provide a unique name for your font */
-    src: url('adelia.ttf') format('truetype');
+    font-family: 'botterill'; /* Provide a unique name for your font */
+    src: url('Botterill Signature.ttf') format('truetype');
 }
 
 .special-heading {
-    font-family: 'adelia', sans-serif;
+    font-family: 'botterill', sans-serif;
 }
 
 body, h1, h2, p {
