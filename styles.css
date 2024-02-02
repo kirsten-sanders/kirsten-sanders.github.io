@@ -128,7 +128,7 @@ section p1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px;
+    font-size: 30px;
     cursor: pointer;
     border: none;
     background: none;
