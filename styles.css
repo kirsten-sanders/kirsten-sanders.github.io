@@ -89,6 +89,7 @@ section p {
 
 .centered-image-container img {
     display: block;
+    width: 100%;
     margin: 0 auto;
     /* Add any other styles you want for the image */
 }
