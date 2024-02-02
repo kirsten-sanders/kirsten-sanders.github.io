@@ -6,12 +6,12 @@
 }
 
 @font-face {
-    font-family: 'Adelia'; /* Provide a unique name for your font */
+    font-family: 'adelia'; /* Provide a unique name for your font */
     src: url('adelia.ttf') format('truetype');
 }
 
 .special-heading {
-    font-family: 'Adelia', sans-serif;
+    font-family: 'adelia', sans-serif;
 }
 
 body, h1, h2, p {
