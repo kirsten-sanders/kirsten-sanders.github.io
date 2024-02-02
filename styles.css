@@ -27,6 +27,7 @@ nav ul {
 }
 
 nav ul li {
+    font-size: 36px;
     display: inline;
     margin-right: 20px;
 }
