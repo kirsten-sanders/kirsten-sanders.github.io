@@ -47,6 +47,10 @@ section h1 {
     padding: 20px;
 }
 
+section h2 {
+    text-align: center;
+    padding: 20px;
+
 .centered-image-container {
     text-align: center;
 }
