@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'botterill'; /* Provide a unique name for your font */
-    src: url('Botterill Signature.ttf') format('truetype');
+    src: url('BotterillSignature.ttf') format('truetype');
 }
 
 .special-heading {
