@@ -93,6 +93,7 @@ section p {
 section p1 {
     font-family: Poppins, sans-serif;
     padding: 20px;
+    font-weight: bold;
     margin: 8px;
     text-align: center;
 }
