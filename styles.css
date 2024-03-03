@@ -90,14 +90,15 @@ section p {
     margin: 8px;
 }
 
-section p1 {
+.p1 {
     font-family: Poppins, sans-serif;
     padding: 20px;
     font-weight: bold;
     margin: 8px;
     text-align: center;
 }
-section p2 {
+
+.p2 {
     font-family: Poppins, sans-serif;
     padding: 5px;
     margin: 8px;
