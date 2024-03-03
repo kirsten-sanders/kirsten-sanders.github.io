@@ -60,6 +60,25 @@ nav a {
     font-weight: bold;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: lightgray;
+}
+
+.page {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.page.active {
+    opacity: 1;
+}
+
 section {
     font-family: 'Fraunces', sans-serif;
     padding: 30px;
