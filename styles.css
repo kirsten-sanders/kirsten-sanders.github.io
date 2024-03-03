@@ -92,7 +92,7 @@ section p {
 
 .type1 {
     font-family: Poppins, sans-serif;
-    padding: 20px;
+    padding-top: 15px;
     font-weight: bold;
     margin: 8px;
     text-align: center;
@@ -100,7 +100,7 @@ section p {
 
 .type2 {
     font-family: Poppins, sans-serif;
-    padding: 5px;
+    padding: 4px;
     margin: 8px;
     text-align: center;
 }
