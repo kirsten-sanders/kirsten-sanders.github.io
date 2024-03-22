@@ -29,20 +29,28 @@ document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.nav-link');
     const contentDiv = document.getElementById('content');
 
+    // Function to load page content
+    function loadPage(url) {
+        fetch(url)
+            .then(response => response.text())
+            .then(data => {
+                contentDiv.innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error fetching page:', error);
+            });
+    }
+
+    // Load initial page content
+    loadPage('index.html');
+
+    // Event listener for navigation links
     navLinks.forEach(link => {
         link.addEventListener('click', function(event) {
             event.preventDefault();
 
             const url = this.getAttribute('href');
-
-            fetch(url)
-                .then(response => response.text())
-                .then(data => {
-                    contentDiv.innerHTML = data;
-                })
-                .catch(error => {
-                    console.error('Error fetching page:', error);
-                });
+            loadPage(url);
         });
     });
 });
