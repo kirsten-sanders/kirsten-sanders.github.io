@@ -70,15 +70,6 @@ nav a {
     color: lightgray;
 }
 
-.page {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.page.active {
-    opacity: 1;
-}
-
 section {
     font-family: 'Fraunces', sans-serif;
     padding: 30px;

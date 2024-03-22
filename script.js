@@ -23,22 +23,26 @@ function showSlide(n) {
     slides[currentSlide].style.display = 'block';
 }
 
+// script.js
+
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.nav-link');
-    const pages = document.querySelectorAll('.page');
+    const contentDiv = document.getElementById('content');
 
     navLinks.forEach(link => {
         link.addEventListener('click', function(event) {
             event.preventDefault();
 
-            const targetId = this.getAttribute('href').substring(1);
-            const targetPage = document.getElementById(targetId);
+            const url = this.getAttribute('href');
 
-            pages.forEach(page => {
-                page.classList.remove('active');
-            });
-
-            targetPage.classList.add('active');
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    contentDiv.innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error fetching page:', error);
+                });
         });
     });
 });
