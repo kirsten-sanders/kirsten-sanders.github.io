@@ -22,4 +22,3 @@ function showSlide(n) {
 
     slides[currentSlide].style.display = 'block';
 }
-
