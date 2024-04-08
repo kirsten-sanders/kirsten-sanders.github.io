@@ -134,6 +134,7 @@ section p {
 
 .centered-image-container {
     text-align: center;
+    padding: 4px;
 }
 
 .centered-image-container img {
