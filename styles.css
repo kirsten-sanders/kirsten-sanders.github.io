@@ -99,6 +99,8 @@ section p {
     padding: 20px;
     text-align: center;
     width: 80%;
+    margin: 0 auto; 
+    box-sizing: border-box;
 }
 
 .type1 {
