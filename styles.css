@@ -178,6 +178,10 @@ section p {
     right: 10px;
 }
 
+a {
+    color:#4c6663
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
