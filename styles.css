@@ -105,7 +105,8 @@ section p {
 
 .centered-text {
     font-family: Poppins, sans-serif;
-    padding: 0;
+    padding-top: 4px;
+    padding-bottom: 0px;
     text-align: center;
     width: 80%;
     margin: 0 auto; 
