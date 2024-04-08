@@ -117,14 +117,18 @@ section p {
     padding-top: 5px;
     padding-bottom: 0px;
     font-weight: bold;
-    margin: 8px;
+    width: 80%;
+    margin: 0 auto; 
+    box-sizing: border-box;
     text-align: center;
 }
 
 .type2 {
     font-family: Poppins, sans-serif;
     padding: 4px;
-    margin: 8px;
+    width: 80%;
+    margin: 0 auto; 
+    box-sizing: border-box;
     text-align: center;
 }
 
