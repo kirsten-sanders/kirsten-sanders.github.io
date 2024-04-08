@@ -97,10 +97,7 @@ section h3 {
 section p {
     font-family: Poppins, sans-serif;
     padding: 0;
-    text-align: center;
     width: 80%;
-    margin: 0 auto; 
-    box-sizing: border-box;
 }
 
 .centered-text {
